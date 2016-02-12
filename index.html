@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Get Off Your Butt!</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/sweetalert.min.js"></script> 
+	<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	<script src="js/app.js"></script>
+</head>
+<body>
+	<div class="container">
+		
+		<div id="main">
+			<h1>Get Off Your Butt!</h1>
+			<h3>Sitting in your office all day? Too busy to get up? Getting fat??</h3>
+			<p>Well I got a solution for you! Choose a time interval and we will alert you to do an exercise!</p>
+		</div>
+
+		<div id="mainButtons">
+			<button type="button" id="thirtyMin" class="button">Every 30 minutes</button>
+			<button type="button" id="fortyFiveMin" class="button">Every 45 minutes</button>
+			<button type="button" id="hourly" class="button">Every hour</button>
+			<br/><br/>
+			<p>Or enter custom time interval (Minutes)</p>
+			<input type="text" name="customTime" id="customTime" placeholder="Minutes">
+			<button type="button" id="customButton" class="button">Start</button>
+		</div>
+
+		<audio id="music" src="EyeOfTheTiger.mp3" preload="auto"></audio>
+		
+		<div id="footer">
+		</div>
+	</div>
+	
+</body>
+</html>
